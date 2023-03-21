@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }
     //Toogle Menu
-    // const burger = document.querySelector("#navToggle")
-    // const menuItem = document.querySelector("nav")
-    // burger.classList.toggle("active")
-    // burger.addEventListener("click", function () {
-
-    //     menuItem.classList.toggle("show")
-    // })
+    const burger = document.querySelector("#navToggle")
+    const menuItem = document.querySelector("nav")
+    burger.addEventListener("click", function () {
+        burger.classList.toggle('active')
+        menuItem.classList.toggle("show")
+        burger.classList.add('burger')
+    })
 
 
 
